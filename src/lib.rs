@@ -1,3 +1,4 @@
+pub mod ambience;
 pub mod birds;
 pub mod block;
 pub mod chunks;

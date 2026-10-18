@@ -1,3 +1,4 @@
+use rustcraft::ambience::AmbiencePlugin;
 use rustcraft::settings::Settings;
 
 use bevy::anti_alias::taa::TemporalAntiAliasing;
@@ -198,6 +199,7 @@ fn main() {
             SunGlarePlugin,
             NightSkyPlugin,
             DebugOverlayPlugin,
+            AmbiencePlugin,
             CritterPlugin,
             BirdPlugin,
         ))
