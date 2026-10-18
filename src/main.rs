@@ -5,6 +5,7 @@ use bevy::core_pipeline::prepass::{DepthPrepass, MotionVectorPrepass};
 use bevy::post_process::bloom::Bloom;
 use bevy::post_process::dof::{DepthOfField, DepthOfFieldMode};
 use bevy::prelude::*;
+use rustcraft::birds::BirdPlugin;
 use rustcraft::chunks::{
     fade::FULLY_VISIBLE,
     insert_terrain_resources,
@@ -198,6 +199,7 @@ fn main() {
             NightSkyPlugin,
             DebugOverlayPlugin,
             CritterPlugin,
+            BirdPlugin,
         ))
         .insert_resource(winit_settings())
         .insert_resource(ClearColor(Color::BLACK))
