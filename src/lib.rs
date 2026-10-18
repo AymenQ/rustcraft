@@ -1,12 +1,15 @@
 pub mod block;
 pub mod chunks;
 pub mod clouds;
+pub mod critters;
 pub mod curvature;
 pub mod debug;
 pub mod horizon;
+pub mod math;
 pub mod player;
 pub mod settings;
 pub mod sky;
 pub mod sky_dome;
 pub mod tonemap;
+pub mod wings;
 pub mod world;
